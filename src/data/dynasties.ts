@@ -7,6 +7,9 @@ import dynasty6 from "@/assets/dynasty-6.jpg";
 import dynastyMiddle from "@/assets/dynasty-middle.jpg";
 import dynastyNew from "@/assets/dynasty-new.jpg";
 import dynastyLate from "@/assets/dynasty-late.jpg";
+import narmer from "@/assets/narmer.jpg";
+
+console.log("Dynasty image:", dynasty1);
 
 export interface Dynasty {
   id: number;
@@ -23,7 +26,7 @@ export const dynasties: Dynasty[] = [
     title: "الأسرة الأولى (العصر العتيق)",
     period: "ق. ٣١٠٠ - ٢٨٠٠ ق.م",
     description: "بداية الحكم الفرعوني وتوحيد القطرين على يد الملك نارمر. تأسيس الدولة المصرية القديمة ونظام الحكم المركزي، حيث شهدت هذه الفترة ولادة الحضارة المصرية الموحدة وظهور نظام الكتابة الهيروغليفية المتطور.",
-    image: dynasty1,
+    image: narmer,
   },
   {
     id: 2,
