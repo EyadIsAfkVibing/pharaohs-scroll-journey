@@ -69,6 +69,21 @@ const CreditsPage = () => {
                     نتقدم بجزيل الشكر لكل من ساهم في إنجاحه.
                 </p>
 
+                {/* Teacher Highlight */}
+                <div className="my-10 flex flex-col items-center">
+                    <div className="flex items-center gap-4 text-4xl md:text-5xl font-extrabold text-yellow-700 animate-glow">
+                        <span>𓂀</span>
+                        <span className="px-6 py-3 border-4 border-yellow-700 rounded-full shadow-lg bg-yellow-50">
+                            Ms. Hager Eldeeb
+                        </span>
+                        <span>𓂀</span>
+                    </div>
+                    <p className="mt-4 text-lg text-yellow-800 font-semibold">
+                        معلمتنا الفاضلة
+                    </p>
+                </div>
+
+
                 {/* Contributors */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg font-semibold text-yellow-800">
                     {contributors.map((name, index) => (
