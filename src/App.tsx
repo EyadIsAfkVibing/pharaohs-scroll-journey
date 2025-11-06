@@ -18,6 +18,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <AncientAnimationProvider>
+          <audio src="/music/background.mp3" autoPlay loop />
           <Routes>
             <Route path="/credits" element={<CreditsPage />} />
             <Route path="/" element={<Home />} />

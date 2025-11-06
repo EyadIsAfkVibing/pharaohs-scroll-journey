@@ -1007,23 +1007,3 @@ html {
     text-shadow: 0 0 8px gold;
   }
 }
-
-.animate-glow {
-  animation: glowPulse 3s ease-in-out infinite;
-}
-
-@keyframes flicker {
-
-  0%,
-  100% {
-    opacity: 0.05;
-  }
-
-  50% {
-    opacity: 0.1;
-  }
-}
-
-.animate-flicker {
-  animation: flicker 2s infinite ease-in-out;
-}
