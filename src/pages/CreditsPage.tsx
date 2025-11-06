@@ -9,10 +9,11 @@ const contributors = [
     "Omar Haitham",
     "Amr Hanafi",
     "Eyad Ahmed Hassanien",
-    "Amal Ahmed",
     "Fatima Tamer",
     "Roqaia Ahmed",
-    "Jana Hisham"
+    "Jana Hisham",
+    "Sogoud Samir",
+    "Habiba Moustafa"
 ];
 
 const CreditsPage = () => {
