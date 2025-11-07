@@ -73,9 +73,10 @@ const CreditsPage = () => {
                 <div className="my-10 flex flex-col items-center">
                     <div className="flex items-center gap-4 text-4xl md:text-5xl font-extrabold text-yellow-700 animate-glow">
                         <span>𓂀</span>
-                        <span className="px-6 py-3 border-4 border-yellow-700 rounded-full shadow-lg bg-yellow-50">
+                        <span className="px-6 py-3 border-4 border-yellow-700 rounded-full shadow-lg bg-yellow-50 glowy-gold">
                             Ms. Hager Eldeeb
                         </span>
+
                         <span>𓂀</span>
                     </div>
                     <p className="mt-4 text-lg text-yellow-800 font-semibold">
@@ -85,13 +86,20 @@ const CreditsPage = () => {
 
 
                 {/* Contributors */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg font-semibold text-yellow-800">
-                    {contributors.map((name, index) => (
-                        <span key={index} className="animate-glow">
-                            {name}
-                        </span>
-                    ))}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm font-semibold text-yellow-800">
+                    {contributors.map((name, index) => {
+                        const isGlowy = name === "Eyad Ahmed Fouad" || name === "Adham Ahmed";
+                        return (
+                            <span
+                                key={index}
+                                className={isGlowy ? "glowy-gold" : "animate-glow"}
+                            >
+                                {name}
+                            </span>
+                        );
+                    })}
                 </div>
+
 
                 {/* Return Button */}
                 <div className="mt-12">

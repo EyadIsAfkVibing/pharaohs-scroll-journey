@@ -4,6 +4,8 @@ import { dynasties } from "@/data/dynasties";
 import { EgyptianButton } from "@/components/EgyptianButton";
 import { FloatingHieroglyph } from "@/components/FloatingHieroglyph";
 import { ChevronRight, ChevronLeft, Home } from "lucide-react";
+import { dynastyRanges } from "@/data/dynastyRanges";
+
 
 const DynastyPage = () => {
   const { id } = useParams();
@@ -117,6 +119,7 @@ const DynastyPage = () => {
                     color: "#8B6914",
                   }}
                 >
+                  الأسرة {dynastyRanges[dynasty.id] || "—"}
                 </span>
               </div>
 
