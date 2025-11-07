@@ -88,7 +88,7 @@ const CreditsPage = () => {
                 {/* Contributors */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm font-semibold text-yellow-800">
                     {contributors.map((name, index) => {
-                        const isGlowy = name === "Eyad Ahmed Fouad" || name === "Adham Ahmed";
+                        const isGlowy = name === "Eyad Ahmed Fouad" || name === "Adham Ahmed" || name === "Ahmed Nasr" || name === "Fatima Tamer";
                         return (
                             <span
                                 key={index}
