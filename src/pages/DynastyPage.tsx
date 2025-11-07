@@ -117,7 +117,6 @@ const DynastyPage = () => {
                     color: "#8B6914",
                   }}
                 >
-                  الأسرة {dynastyId}
                 </span>
               </div>
 
