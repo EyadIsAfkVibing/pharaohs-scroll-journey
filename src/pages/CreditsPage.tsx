@@ -12,8 +12,7 @@ const contributors = [
     "Fatima Tamer",
     "Roqaia Ahmed",
     "Jana Hisham",
-    "Sogoud Samir",
-    "Habiba Moustafa"
+    "Sogoud Samir"
 ];
 
 const CreditsPage = () => {

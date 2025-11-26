@@ -230,7 +230,7 @@ const Home = () => {
             </div>
 
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto text-reveal animate-ancient-fade">
-              استكشف <span className="text-primary font-bold">31 أسرة</span> حكمت مصر لأكثر من <span className="text-primary font-bold">3000 عام</span>
+              استكشف <span className="text-primary font-bold">30 أسرة</span> حكمت مصر لأكثر من <span className="text-primary font-bold">3000 عام</span>
             </p>
 
             {/* Decorative Line */}
